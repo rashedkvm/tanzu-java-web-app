@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
-public class HelloController {
+public class TestController {
 
-	@RequestMapping("/")
+	@RequestMapping("/test")
 	public String index() {
-		return "Greeting from <string>Tanzu Application Platform!</strong><br/><i>bazinga domain</i>";
+		return "You are @ <string>Test Controller!!!</strong><br/><i>bazinga domain</i>";
 	}
 
 }
